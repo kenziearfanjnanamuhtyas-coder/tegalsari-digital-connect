@@ -77,14 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Desa Tegalsari - Kec. Sidareja, Kab. Cilacap" },
+      { name: "description", content: "Website resmi Desa Tegalsari, Kecamatan Sidareja, Kabupaten Cilacap, Jawa Tengah." },
+      { name: "author", content: "Pemerintah Desa Tegalsari" },
+      { property: "og:title", content: "Desa Tegalsari" },
+      { property: "og:description", content: "Website resmi Desa Tegalsari, Kec. Sidareja, Kab. Cilacap." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {

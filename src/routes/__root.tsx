@@ -80,10 +80,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Desa Tegalsari - Kec. Sidareja, Kab. Cilacap" },
       { name: "description", content: "Website resmi Desa Tegalsari, Kecamatan Sidareja, Kabupaten Cilacap, Jawa Tengah." },
       { name: "author", content: "Pemerintah Desa Tegalsari" },
-      { property: "og:title", content: "Desa Tegalsari" },
-      { property: "og:description", content: "Website resmi Desa Tegalsari, Kec. Sidareja, Kab. Cilacap." },
+      { property: "og:title", content: "Desa Tegalsari - Kec. Sidareja, Kab. Cilacap" },
+      { property: "og:description", content: "Website resmi Desa Tegalsari, Kecamatan Sidareja, Kabupaten Cilacap, Jawa Tengah." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Desa Tegalsari - Kec. Sidareja, Kab. Cilacap" },
+      { name: "twitter:description", content: "Website resmi Desa Tegalsari, Kecamatan Sidareja, Kabupaten Cilacap, Jawa Tengah." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cde2969f-6368-4d44-a3bd-a1d7ddf27d84" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/cde2969f-6368-4d44-a3bd-a1d7ddf27d84" },
     ],
     links: [
       {
